@@ -1,0 +1,5 @@
+name1 = input("give first string")
+name2 = input("give second string")
+length1 = len(name1)
+length2 = len(name2)
+print(name2[0:2]+name1[2:length1]+" "+name1[0:2]+name2[2:length2])
